@@ -16,6 +16,9 @@ RUN /opt/conda/envs/py310/bin/pip install opencv-python opencv-contrib-python
 # https://cocoinit23.com/docker-opencv-importerror-libgl-so-1-cannot-open-shared-object-file/
 RUN apt install -y libgl1-mesa-dev
 
+# matplotlib入れる
+RUN /opt/conda/envs/py310/bin/pip install matplotlib
+
 # Jupyter Notebookの設定とディレクトリ作成
 ENV PATH /opt/conda/envs/py310/bin:$PATH
 RUN mkdir -p /opt/notebooks
