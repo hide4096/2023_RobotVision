@@ -1,6 +1,10 @@
 # 2023_RobotVision
 千葉工業大学未来ロボティクス学科の講義、ロボットビジョンで使う環境を一発で構築するDockerfileです
 
+第一回のサンプルコード`01_simple-demosaicing`が動いてる
+
+![image](https://github.com/hide4096/2023_RobotVision/assets/87698678/ba7dcc36-98f2-4303-ae05-f7558ae3e950)
+
 ## Installation
 
 このリポジトリを適当なところに展開して、中のDockerfileをビルドするだけ
